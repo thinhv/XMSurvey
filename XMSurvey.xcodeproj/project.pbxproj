@@ -37,6 +37,7 @@
 		2582B3DA2918259C0069AED7 /* QuestionSubmissionRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3D92918259C0069AED7 /* QuestionSubmissionRequestTests.swift */; };
 		2582B3DD29182E400069AED7 /* QuestionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3DC29182E400069AED7 /* QuestionsViewModelTests.swift */; };
 		2582B3DF2918C4610069AED7 /* QuestionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3DE2918C4610069AED7 /* QuestionViewModelTests.swift */; };
+		2582B3E12918C5A00069AED7 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3E02918C5A00069AED7 /* LoadingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		2582B3D92918259C0069AED7 /* QuestionSubmissionRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSubmissionRequestTests.swift; sourceTree = "<group>"; };
 		2582B3DC29182E400069AED7 /* QuestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewModelTests.swift; sourceTree = "<group>"; };
 		2582B3DE2918C4610069AED7 /* QuestionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModelTests.swift; sourceTree = "<group>"; };
+		2582B3E02918C5A00069AED7 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				2582B3AE2913B5850069AED7 /* Views */,
 				258123C12912F4B800D71C36 /* Networking */,
 				258123BE2912F3DE00D71C36 /* Models */,
+				2582B3E02918C5A00069AED7 /* LoadingState.swift */,
 				258123942912F3B800D71C36 /* XMSurveyApp.swift */,
 				258123962912F3B800D71C36 /* ContentView.swift */,
 				258123982912F3B900D71C36 /* Assets.xcassets */,
@@ -413,6 +416,7 @@
 				258123972912F3B800D71C36 /* ContentView.swift in Sources */,
 				258123CA2912FE4000D71C36 /* QuestionsRequest.swift in Sources */,
 				2582B3B6291626E70069AED7 /* QuestionsView.swift in Sources */,
+				2582B3E12918C5A00069AED7 /* LoadingState.swift in Sources */,
 				2582B3BB2916861E0069AED7 /* QuestionView.swift in Sources */,
 				2582B3C129168BC90069AED7 /* Answer.swift in Sources */,
 				2582B3B32916250A0069AED7 /* StartViewModel.swift in Sources */,
