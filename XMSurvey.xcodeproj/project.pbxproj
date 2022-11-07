@@ -11,9 +11,32 @@
 		258123972912F3B800D71C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123962912F3B800D71C36 /* ContentView.swift */; };
 		258123992912F3B900D71C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258123982912F3B900D71C36 /* Assets.xcassets */; };
 		2581239C2912F3B900D71C36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2581239B2912F3B900D71C36 /* Preview Assets.xcassets */; };
-		258123A62912F3B900D71C36 /* XMSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123A52912F3B900D71C36 /* XMSurveyTests.swift */; };
 		258123B02912F3B900D71C36 /* XMSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123AF2912F3B900D71C36 /* XMSurveyUITests.swift */; };
 		258123B22912F3B900D71C36 /* XMSurveyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123B12912F3B900D71C36 /* XMSurveyUITestsLaunchTests.swift */; };
+		258123C02912F45100D71C36 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123BF2912F45100D71C36 /* Question.swift */; };
+		258123C42912F8C800D71C36 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123C32912F8C800D71C36 /* APIConfiguration.swift */; };
+		258123C62912F94C00D71C36 /* APIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123C52912F94C00D71C36 /* APIRequestProtocol.swift */; };
+		258123C82912F9FF00D71C36 /* APIRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123C72912F9FF00D71C36 /* APIRequestLoader.swift */; };
+		258123CA2912FE4000D71C36 /* QuestionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123C92912FE4000D71C36 /* QuestionsRequest.swift */; };
+		258123CD2912FF9700D71C36 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258123CC2912FF9700D71C36 /* HTTPMethod.swift */; };
+		2582B3B0291624DB0069AED7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3AF291624DB0069AED7 /* StartView.swift */; };
+		2582B3B32916250A0069AED7 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3B22916250A0069AED7 /* StartViewModel.swift */; };
+		2582B3B6291626E70069AED7 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3B5291626E70069AED7 /* QuestionsView.swift */; };
+		2582B3B8291626FE0069AED7 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3B7291626FE0069AED7 /* QuestionsViewModel.swift */; };
+		2582B3BB2916861E0069AED7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3BA2916861E0069AED7 /* QuestionView.swift */; };
+		2582B3BD2916862D0069AED7 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3BC2916862D0069AED7 /* QuestionViewModel.swift */; };
+		2582B3BF2916873D0069AED7 /* QuestionSubmissionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3BE2916873D0069AED7 /* QuestionSubmissionRequest.swift */; };
+		2582B3C129168BC90069AED7 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3C029168BC90069AED7 /* Answer.swift */; };
+		2582B3C829177EF80069AED7 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3C729177EF80069AED7 /* Banner.swift */; };
+		2582B3CE2917E4EE0069AED7 /* APIRequestLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3CD2917E4EE0069AED7 /* APIRequestLoaderTests.swift */; };
+		2582B3D02917F0950069AED7 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3CF2917F0950069AED7 /* MockURLProtocol.swift */; };
+		2582B3D22917F2280069AED7 /* XCTestCase+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3D12917F2280069AED7 /* XCTestCase+Combine.swift */; };
+		2582B3D42917F8AC0069AED7 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 2582B3D32917F8AC0069AED7 /* questions.json */; };
+		2582B3D62917F9430069AED7 /* Data+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3D52917F9430069AED7 /* Data+JSON.swift */; };
+		2582B3D8291820D20069AED7 /* QuestionsRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3D7291820D20069AED7 /* QuestionsRequestTests.swift */; };
+		2582B3DA2918259C0069AED7 /* QuestionSubmissionRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3D92918259C0069AED7 /* QuestionSubmissionRequestTests.swift */; };
+		2582B3DD29182E400069AED7 /* QuestionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3DC29182E400069AED7 /* QuestionsViewModelTests.swift */; };
+		2582B3DF2918C4610069AED7 /* QuestionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582B3DE2918C4610069AED7 /* QuestionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +63,33 @@
 		258123982912F3B900D71C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2581239B2912F3B900D71C36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		258123A12912F3B900D71C36 /* XMSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		258123A52912F3B900D71C36 /* XMSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMSurveyTests.swift; sourceTree = "<group>"; };
 		258123AB2912F3B900D71C36 /* XMSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		258123AF2912F3B900D71C36 /* XMSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMSurveyUITests.swift; sourceTree = "<group>"; };
 		258123B12912F3B900D71C36 /* XMSurveyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMSurveyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		258123BF2912F45100D71C36 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		258123C32912F8C800D71C36 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		258123C52912F94C00D71C36 /* APIRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProtocol.swift; sourceTree = "<group>"; };
+		258123C72912F9FF00D71C36 /* APIRequestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestLoader.swift; sourceTree = "<group>"; };
+		258123C92912FE4000D71C36 /* QuestionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsRequest.swift; sourceTree = "<group>"; };
+		258123CC2912FF9700D71C36 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		2582B3AF291624DB0069AED7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		2582B3B22916250A0069AED7 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		2582B3B5291626E70069AED7 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		2582B3B7291626FE0069AED7 /* QuestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
+		2582B3BA2916861E0069AED7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		2582B3BC2916862D0069AED7 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		2582B3BE2916873D0069AED7 /* QuestionSubmissionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSubmissionRequest.swift; sourceTree = "<group>"; };
+		2582B3C029168BC90069AED7 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		2582B3C729177EF80069AED7 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		2582B3CD2917E4EE0069AED7 /* APIRequestLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestLoaderTests.swift; sourceTree = "<group>"; };
+		2582B3CF2917F0950069AED7 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		2582B3D12917F2280069AED7 /* XCTestCase+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Combine.swift"; sourceTree = "<group>"; };
+		2582B3D32917F8AC0069AED7 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		2582B3D52917F9430069AED7 /* Data+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSON.swift"; sourceTree = "<group>"; };
+		2582B3D7291820D20069AED7 /* QuestionsRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsRequestTests.swift; sourceTree = "<group>"; };
+		2582B3D92918259C0069AED7 /* QuestionSubmissionRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSubmissionRequestTests.swift; sourceTree = "<group>"; };
+		2582B3DC29182E400069AED7 /* QuestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewModelTests.swift; sourceTree = "<group>"; };
+		2582B3DE2918C4610069AED7 /* QuestionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +140,9 @@
 		258123932912F3B800D71C36 /* XMSurvey */ = {
 			isa = PBXGroup;
 			children = (
+				2582B3AE2913B5850069AED7 /* Views */,
+				258123C12912F4B800D71C36 /* Networking */,
+				258123BE2912F3DE00D71C36 /* Models */,
 				258123942912F3B800D71C36 /* XMSurveyApp.swift */,
 				258123962912F3B800D71C36 /* ContentView.swift */,
 				258123982912F3B900D71C36 /* Assets.xcassets */,
@@ -113,7 +162,11 @@
 		258123A42912F3B900D71C36 /* XMSurveyTests */ = {
 			isa = PBXGroup;
 			children = (
-				258123A52912F3B900D71C36 /* XMSurveyTests.swift */,
+				2582B3D52917F9430069AED7 /* Data+JSON.swift */,
+				2582B3D12917F2280069AED7 /* XCTestCase+Combine.swift */,
+				2582B3CC2917E4800069AED7 /* Networking */,
+				2582B3DB29182E210069AED7 /* ViewModels */,
+				2582B3D32917F8AC0069AED7 /* questions.json */,
 			);
 			path = XMSurveyTests;
 			sourceTree = "<group>";
@@ -125,6 +178,102 @@
 				258123B12912F3B900D71C36 /* XMSurveyUITestsLaunchTests.swift */,
 			);
 			path = XMSurveyUITests;
+			sourceTree = "<group>";
+		};
+		258123BE2912F3DE00D71C36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				258123BF2912F45100D71C36 /* Question.swift */,
+				2582B3C029168BC90069AED7 /* Answer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		258123C12912F4B800D71C36 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				258123CB2912FE4600D71C36 /* Requests */,
+				258123C22912F8A700D71C36 /* Core */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		258123C22912F8A700D71C36 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				258123C32912F8C800D71C36 /* APIConfiguration.swift */,
+				258123C52912F94C00D71C36 /* APIRequestProtocol.swift */,
+				258123C72912F9FF00D71C36 /* APIRequestLoader.swift */,
+				258123CC2912FF9700D71C36 /* HTTPMethod.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		258123CB2912FE4600D71C36 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				258123C92912FE4000D71C36 /* QuestionsRequest.swift */,
+				2582B3BE2916873D0069AED7 /* QuestionSubmissionRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		2582B3AE2913B5850069AED7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2582B3B9291686080069AED7 /* QuestionView */,
+				2582B3B4291626B80069AED7 /* QuestionsView */,
+				2582B3B1291624E60069AED7 /* StartView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2582B3B1291624E60069AED7 /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				2582B3AF291624DB0069AED7 /* StartView.swift */,
+				2582B3B22916250A0069AED7 /* StartViewModel.swift */,
+			);
+			path = StartView;
+			sourceTree = "<group>";
+		};
+		2582B3B4291626B80069AED7 /* QuestionsView */ = {
+			isa = PBXGroup;
+			children = (
+				2582B3B5291626E70069AED7 /* QuestionsView.swift */,
+				2582B3B7291626FE0069AED7 /* QuestionsViewModel.swift */,
+			);
+			path = QuestionsView;
+			sourceTree = "<group>";
+		};
+		2582B3B9291686080069AED7 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				2582B3C729177EF80069AED7 /* Banner.swift */,
+				2582B3BA2916861E0069AED7 /* QuestionView.swift */,
+				2582B3BC2916862D0069AED7 /* QuestionViewModel.swift */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
+		2582B3CC2917E4800069AED7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2582B3CF2917F0950069AED7 /* MockURLProtocol.swift */,
+				2582B3CD2917E4EE0069AED7 /* APIRequestLoaderTests.swift */,
+				2582B3D7291820D20069AED7 /* QuestionsRequestTests.swift */,
+				2582B3D92918259C0069AED7 /* QuestionSubmissionRequestTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2582B3DB29182E210069AED7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2582B3DC29182E400069AED7 /* QuestionsViewModelTests.swift */,
+				2582B3DE2918C4610069AED7 /* QuestionViewModelTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2582B3D42917F8AC0069AED7 /* questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +407,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2582B3B0291624DB0069AED7 /* StartView.swift in Sources */,
+				258123C02912F45100D71C36 /* Question.swift in Sources */,
+				2582B3B8291626FE0069AED7 /* QuestionsViewModel.swift in Sources */,
 				258123972912F3B800D71C36 /* ContentView.swift in Sources */,
+				258123CA2912FE4000D71C36 /* QuestionsRequest.swift in Sources */,
+				2582B3B6291626E70069AED7 /* QuestionsView.swift in Sources */,
+				2582B3BB2916861E0069AED7 /* QuestionView.swift in Sources */,
+				2582B3C129168BC90069AED7 /* Answer.swift in Sources */,
+				2582B3B32916250A0069AED7 /* StartViewModel.swift in Sources */,
+				2582B3BD2916862D0069AED7 /* QuestionViewModel.swift in Sources */,
+				2582B3C829177EF80069AED7 /* Banner.swift in Sources */,
 				258123952912F3B800D71C36 /* XMSurveyApp.swift in Sources */,
+				258123CD2912FF9700D71C36 /* HTTPMethod.swift in Sources */,
+				258123C82912F9FF00D71C36 /* APIRequestLoader.swift in Sources */,
+				258123C62912F94C00D71C36 /* APIRequestProtocol.swift in Sources */,
+				2582B3BF2916873D0069AED7 /* QuestionSubmissionRequest.swift in Sources */,
+				258123C42912F8C800D71C36 /* APIConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +431,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				258123A62912F3B900D71C36 /* XMSurveyTests.swift in Sources */,
+				2582B3D62917F9430069AED7 /* Data+JSON.swift in Sources */,
+				2582B3D22917F2280069AED7 /* XCTestCase+Combine.swift in Sources */,
+				2582B3CE2917E4EE0069AED7 /* APIRequestLoaderTests.swift in Sources */,
+				2582B3D02917F0950069AED7 /* MockURLProtocol.swift in Sources */,
+				2582B3D8291820D20069AED7 /* QuestionsRequestTests.swift in Sources */,
+				2582B3DA2918259C0069AED7 /* QuestionSubmissionRequestTests.swift in Sources */,
+				2582B3DF2918C4610069AED7 /* QuestionViewModelTests.swift in Sources */,
+				2582B3DD29182E400069AED7 /* QuestionsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
