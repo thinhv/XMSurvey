@@ -19,7 +19,9 @@ final class QuestionViewModel: ObservableObject, Identifiable {
     private let request = QuestionSubmissionRequest()
     private lazy var loader = APIRequestLoader(request: request)
     private var cancellable: AnyCancellable?
-    private var timer: Timer?
+    private var timer: Timer? {
+        willSet { timer?.invalidate() }
+    }
     private let completion: (LoadingState<Question>) -> Void
 
     init(question: Question, completion: @escaping (LoadingState<Question>) -> Void) {
@@ -38,6 +40,7 @@ final class QuestionViewModel: ObservableObject, Identifiable {
             .loadRequest(requestData: requestData)
             .map { _ in LoadingState<Question>.loaded(question) }
             .catch { error in Just(LoadingState<Question>.failed(error)) }
+            .delay(for: .seconds(1), scheduler: DispatchQueue.main) // Demo purpose: Delay to show submitting state
             .sink { [weak self] state in
                 guard let self = self else { return }
 
@@ -52,6 +55,7 @@ final class QuestionViewModel: ObservableObject, Identifiable {
     }
 
     func retry() {
+        timer = nil
         bannerState = .hidden
     }
 }

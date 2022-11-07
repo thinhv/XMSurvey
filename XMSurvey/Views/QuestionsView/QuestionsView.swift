@@ -23,6 +23,10 @@ struct QuestionsView: View {
                         ForEach(viewModel.questionViewModels) { viewModel in
                             QuestionView(viewModel: viewModel)
                                 .tag(viewModel.id)
+                                // WORKAROUND: Hack to block swiping. Creating a new component is needed!
+                                // https://stackoverflow.com/questions/66450760/disable-swipe-gesture-in-swifui-tabview
+                                .contentShape(Rectangle())
+                                .gesture(DragGesture())
 
                         }
                     }
@@ -33,6 +37,8 @@ struct QuestionsView: View {
                         Text(error.localizedDescription)
                     }
             }
+
+            Spacer()
         }
         .onAppear {
             viewModel.load()
